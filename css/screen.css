@@ -1,0 +1,170 @@
+body{
+	height: 100vh;
+}
+
+h1,p{
+	color: #140B2F;
+}
+
+h1{
+	font-size: 65px;
+	font-weight: bold;
+	margin-bottom: 18px;
+}
+
+p{
+	font-size: 16px;
+}
+
+.btn{
+	background-color: #512DA8;
+	color: #fff;
+	height: 48px;
+	margin-right:12px; 
+}
+
+.btn:hover{
+	color: #fff;
+}
+
+form{
+	width: 100%;
+}
+
+.body-light{
+	margin-top: 30px;
+	opacity: .5;
+	font-size: 14px;
+}
+
+.header{
+	position: absolute;
+}
+
+.header .logo{
+	padding-top: 30px;
+	padding-left: 30px;
+}
+
+.main-image-small{
+	display: none;
+}
+
+.intro .left {
+  position: relative;
+  height: 90vh;
+  margin-right: 20px;
+}
+
+.social{
+	margin-right: 10px;
+	width: 48px;
+}
+
+.intro .left .left-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.intro .right {
+  position: relative;
+  height: 90vh;
+}
+
+.intro .right .right-inner {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.intro .right .right-inner .main-image{
+	float: right;
+	max-width: 100%;
+
+}
+
+.footer{
+	background-color: #512DA8;
+	height: 10vh;
+}
+
+.footer p{
+	float: right;
+	margin-top: -35px;
+}
+
+@media (min-width: 1200px){
+	.container {
+	    width: 980px;
+	}
+}
+
+@media (max-width: 992px ){
+	h1{
+		font-size: 40px;
+	}
+	p{
+		font-size: 14px;
+	}
+	.social{
+		width: 40px;
+		margin-right: 5px;
+	}
+	.btn{
+		height: 40px;
+	}
+}
+
+@media (max-width: 768px){
+	.header{
+		position: relative;
+	}
+
+	.intro .left{
+		height: inherit;
+		margin-right: 0;
+	}
+
+	.intro .left .left-inner {
+	  position: relative;
+	  top:11px;
+	  -webkit-transform: translateY(0%);
+	  -moz-transform: translateY(0%);
+	  -o-transform: translateY(0%);
+	  transform: translateY(0%);
+	}
+
+	.main-image-small{
+		display: block;
+		height: 140px;
+		margin: 0 auto;
+		margin-top: 37px;
+	}
+
+	.intro .right {
+	  display: none;
+	}
+
+
+
+	.footer{
+		position: absolute;
+		bottom: 0;
+		height: 5vh
+	}
+}
+
+
+
+
+
+
