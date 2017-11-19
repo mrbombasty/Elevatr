@@ -1,13 +1,14 @@
 body{
 	height: 100vh;
+	background-color: #F5F8FF;
 }
 
 h1,p{
-	color: #140B2F;
+	color: #272D36;
 }
 
 h1{
-	font-size: 65px;
+	font-size: 50px;
 	font-weight: bold;
 	margin-bottom: 18px;
 }
@@ -37,17 +38,30 @@ form{
 	font-size: 14px;
 }
 
-.header{
-	position: absolute;
-}
 
-.header .logo{
-	padding-top: 30px;
-	padding-left: 30px;
+
+.logo{
+	margin-bottom: 50px;
 }
 
 .main-image-small{
 	display: none;
+}
+
+.intro{
+	width: 100%;
+}
+
+
+.intro .rectangle-1{
+	position: absolute;
+	height: 100vh;
+}
+
+.intro .rectangle-2{
+	position: absolute;
+	height: 95vh;
+	right: 0;
 }
 
 .intro .left {
@@ -88,24 +102,16 @@ form{
 
 .intro .right .right-inner .main-image{
 	float: right;
-	max-width: 100%;
+	height: 90vh;
+	margin-top: 80px;
+	margin-right: 50px;
 
 }
 
-.footer{
-	background-color: #512DA8;
-	height: 10vh;
-}
 
-.footer p{
-	float: right;
-	margin-top: -35px;
-}
 
 @media (min-width: 1200px){
-	.container {
-	    width: 980px;
-	}
+
 }
 
 @media (max-width: 992px ){
@@ -156,11 +162,7 @@ form{
 
 
 
-	.footer{
-		margin-top: 200px;
-		bottom: 0;
-		height: 5vh
-	}
+
 }
 
 
