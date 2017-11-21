@@ -1,15 +1,21 @@
 body{
-	height: 100vh;
+	height: 100%;
+	background-color: #F5F8FF;
 }
 
-h1,p{
-	color: #140B2F;
+h1,h2,p{
+	color: #272D36;
 }
 
 h1{
-	font-size: 65px;
+	font-size: 50px;
 	font-weight: bold;
 	margin-bottom: 18px;
+}
+
+h2{
+	font-size: 21px;
+	margin-top: 40px;
 }
 
 p{
@@ -37,17 +43,31 @@ form{
 	font-size: 14px;
 }
 
-.header{
-	position: absolute;
-}
 
-.header .logo{
-	padding-top: 30px;
-	padding-left: 30px;
+
+.logo{
+	margin-bottom: 50px;
 }
 
 .main-image-small{
 	display: none;
+}
+
+.intro{
+	width: 100%;
+	position: relative;
+}
+
+
+.intro .rectangle-1{
+	position: absolute;
+	height: 100vh;
+}
+
+.intro .rectangle-2{
+	position: absolute;
+	height: 100vh;
+	right: 0;
 }
 
 .intro .left {
@@ -88,24 +108,16 @@ form{
 
 .intro .right .right-inner .main-image{
 	float: right;
-	max-width: 100%;
+	height: 700px;
+	margin-top: 120px;
+	/*margin-right: 50px;*/
 
 }
 
-.footer{
-	background-color: #512DA8;
-	height: 10vh;
-}
 
-.footer p{
-	float: right;
-	margin-top: -35px;
-}
 
 @media (min-width: 1200px){
-	.container {
-	    width: 980px;
-	}
+
 }
 
 @media (max-width: 992px ){
@@ -125,9 +137,6 @@ form{
 }
 
 @media (max-width: 768px){
-	.header{
-		position: relative;
-	}
 
 	.intro .left{
 		height: inherit;
@@ -143,24 +152,16 @@ form{
 	  transform: translateY(0%);
 	}
 
-	.main-image-small{
-		display: block;
-		height: 140px;
-		margin: 0 auto;
-		margin-top: 37px;
+	.intro .rectangle-2{
+	bottom: 0;
 	}
 
-	.intro .right {
-	  display: none;
+	.intro .right .right-inner .main-image{
+		float: inherit;
 	}
 
 
 
-	.footer{
-		position: absolute;
-		bottom: 0;
-		height: 5vh
-	}
 }
 
 
