@@ -147,7 +147,7 @@ form{
 
 	.intro .left{
 		height: inherit;
-		margin-right: 0;
+		padding-right: 30px;
 	}
 
 	.intro .left .left-inner {
