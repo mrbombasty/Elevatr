@@ -5,11 +5,12 @@ body{
 
 h1,h2,p{
 	color: #2D3F59;
+	font-family: 'Poppins', sans-serif;
 }
 
 h1{
 	font-size: 50px;
-	font-weight: bold;
+	font-weight: 700;
 	margin-bottom: 18px;
 }
 
@@ -138,6 +139,12 @@ form{
 
 @media (max-width: 768px){
 
+	.logo{
+		margin-bottom: 70px;
+		margin-top: 20px;
+		width: 120px;
+	}
+
 	.intro .left{
 		height: inherit;
 		margin-right: 0;
@@ -152,8 +159,25 @@ form{
 	  transform: translateY(0%);
 	}
 
+	.intro .right .right-inner{
+		position: relative;
+	  -webkit-transform: translateY(0%);
+	  -moz-transform: translateY(0%);
+	  -o-transform: translateY(0%);
+	  transform: translateY(0%);
+	  top: 0%;
+	}
+
+	.intro .right .right-inner .main-image{
+		margin-top: 120px;
+		height: inherit;
+		width: 95%;
+		left: 5%;
+	}
+
 	.intro .rectangle-2{
 	bottom: 0;
+	height: 80vh;
 	}
 
 	.intro .right .right-inner .main-image{
