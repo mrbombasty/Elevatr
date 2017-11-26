@@ -1,6 +1,7 @@
 body{
 	height: 100%;
 	background-color: #F5F8FF;
+	overflow-x: hidden; 
 }
 
 h1,h2,p{
@@ -59,10 +60,15 @@ form{
 	position: relative;
 }
 
+.rectangle-container{
+	overflow: hidden;
+}
+
 
 .intro .rectangle-1{
 	position: absolute;
 	height: 100vh;
+
 }
 
 .intro .rectangle-2{
@@ -111,7 +117,6 @@ form{
 	float: right;
 	height: 700px;
 	margin-top: 120px;
-	/*margin-right: 50px;*/
 
 }
 
@@ -128,13 +133,12 @@ form{
 	p{
 		font-size: 14px;
 	}
-	.social{
-		width: 40px;
-		margin-right: 5px;
+	.intro .right .right-inner .main-image{
+		height: auto;
+		width: 80%;
+
 	}
-	.btn{
-		height: 40px;
-	}
+
 }
 
 @media (max-width: 768px){
@@ -173,16 +177,15 @@ form{
 		height: inherit;
 		width: 95%;
 		left: 5%;
+		float: inherit;
 	}
 
 	.intro .rectangle-2{
-	bottom: 0;
-	height: 80vh;
+		bottom: 0;
+		height: 80vh;
 	}
 
-	.intro .right .right-inner .main-image{
-		float: inherit;
-	}
+
 
 
 
