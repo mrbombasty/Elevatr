@@ -78,7 +78,20 @@
       </div>
     </section>
 
+    <script>
+  window.productHuntUpcoming = {
+    appId: 2643,
+    position: 'bottomLeft',
+  };
 
+  (function(doc, scr, src, a, b) {
+    a = doc.createElement(scr);
+    b = doc.getElementsByTagName(scr)[0];
+    a.async = true;
+    a.src = src;
+    b.parentNode.insertBefore(a, b);
+  })(document, 'script', 'https://assets.producthunt.com/assets/upwigloader.js');
+</script>
     <script src="https://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
 
