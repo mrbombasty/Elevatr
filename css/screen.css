@@ -24,7 +24,7 @@ p{
 	font-size: 16px;
 }
 
-.btn{
+/*.btn{
 	background-color: #512DA8;
 	color: #fff;
 	height: 48px;
@@ -37,7 +37,7 @@ p{
 
 form{
 	width: 100%;
-}
+}*/
 
 .body-light{
 	margin-top: 30px;
@@ -51,9 +51,7 @@ form{
 	margin-bottom: 50px;
 }
 
-.main-image-small{
-	display: none;
-}
+
 
 .intro{
 	width: 100%;
@@ -135,7 +133,7 @@ form{
 	}
 	.intro .right .right-inner .main-image{
 		height: auto;
-		width: 80%;
+		width: 100%;
 
 	}
 
