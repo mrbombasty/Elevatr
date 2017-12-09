@@ -20,21 +20,29 @@ h2{
 	margin-top: 40px;
 }
 
-p{
+p, .btn{
 	font-size: 16px;
+	font-family: 'Poppins', sans-serif;
 }
 
-/*.btn{
-	background-color: #512DA8;
+.btn{
+	background-color: #008CFF;
 	color: #fff;
 	height: 48px;
-	margin-right:12px; 
+	padding:12px; 
+	margin: 20px 0 50px 0; 
+	display: block;
+	width: 300px;
+	font-weight: 500;
+
+
 }
 
 .btn:hover{
 	color: #fff;
 }
 
+/*
 form{
 	width: 100%;
 }*/
